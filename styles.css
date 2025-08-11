@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('https://wallpapers.com/images/hd/call-of-duty-modern-warfare-alex-anajzi2cdr5ag61h.jpg') no-repeat center center fixed; /* Add your background image URL here */
+  background-size: cover; /* Ensures the image covers the entire background */
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: rgba(140, 139, 143, 0.8); /* Added transparency for a better overlay effect */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+/* Main Styles */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9); /* Added a white background with transparency for readability */
+  border-radius: 10px; /* Rounded corners for the main content */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Button Styles */
+.shiny-cta {
+  background: #b1a0b1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 10px;
+  padding: 15px 25px;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.shiny-cta a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.shiny-cta:hover {
+  background: #aca1ad;
+  transform: scale(1.05);
+}
+
+/* Info Section Styles */
+.info-section {
+  background: rgba(255, 255, 255, 0.9); /* Added transparency for better visibility */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.info-section h2 {
+  margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: rgba(0, 123, 255, 0.8); /* Added transparency for a better overlay effect */
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
